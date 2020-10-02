@@ -257,7 +257,10 @@ body {
 }
 
 .container a:hover {
-    transform: scale(1.5);
+    	transform: scale(1.1);
 	z-index: 2;
     color: white;
+    border-radius:30px;
+    background-color:blue;
+    padding:10px 20px;
 }
