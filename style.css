@@ -254,7 +254,7 @@ body {
     margin-right: 10px;
     font-size: 30px;
     text-decoration: none;
-    transition: .3s linear
+    transition: .3s linear;
 }
 
 .container a:hover {
