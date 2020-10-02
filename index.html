@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>J.Jordi</title>
+  <link rel="shortcut icon" href="a.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/1d60038f10.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="page-top">
+<div class="wrapper">
+    <ul class="bg-bubbles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+  <div class="bulat">
+        <span></span>
+        <span></span>
+        <span></span>
+  </div>  
+
+  <div id="watch">
+    
+      <script type="text/javascript" src="jquery-3.5.0.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          function clock() {
+            var now = new Date();
+            var secs = ('0' + now.getSeconds()).slice(-2);
+            var mins = ('0' + now.getMinutes()).slice(-2);
+            var hr =   ('0' + now.getHours()).slice(-2);
+            var Time = hr + ":" + mins + ":" + secs;
+            document.getElementById("watch").innerHTML = Time;
+            requestAnimationFrame(clock);
+          }
+
+          requestAnimationFrame(clock);
+        });
+      </script>
+  </div>
+  <div class="salju">
+  <script src="salju.js"></script>
+  </div>
+  <div id="quote">
+  <script type="text/javascript"></script>
+  <script>var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  var greeting;
+
+      H = h;
+      M = m;
+      S = s;
+
+      if (H < 5) {
+          greeting = 'Sleep Tight Baby !';
+      }
+      else if (H < 9) {
+          greeting = 'Have a nice Day !';
+      }
+      else if (H < 12) {
+          greeting = "I'm not the best, but i'm trying my best";
+      }
+      else if (H < 15) {
+          greeting = 'YOU CAN DO IT ! ';
+      }
+      else if (H < 20) {
+          greeting = 'TAKE A REST !';
+      }
+      else if (H < 22) {
+          greeting = 'Do you miss me? You have my number right? ;)';
+      }
+      else if (H <= 23) {
+          greeting = 'I MISS YOU ! ';
+      }
+
+  document.write('<h1>' + greeting + '</h1>');
+  </script>
+  </div>
+
+  <div id="jj">
+  <script>
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    var greeting;
+
+        H = h;
+        M = m;
+        S = s;
+
+        if (H < 5) {
+            greeting = 'Have a Good Night :)';
+        }
+        else if (H < 9) {
+            greeting = 'Good Morning :)';
+        }
+        else if (H < 12) {
+            greeting = 'Good Afternoon :)';
+        }
+        else if (H < 15) {
+            greeting = 'Good Afternoon :) ';
+        }
+        else if (H < 20) {
+            greeting = 'Good Evening :)';
+        }
+        else if (H < 22) {
+            greeting = 'Good Night :)';
+        }
+        else if (H <= 23) {
+            greeting = 'Good Night :)';
+        }
+
+    document.write('<h1>' + greeting + '</h1>');
+  </script>
+  </div>
+
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" id="mainNav">
+    <div class="container">
+    <a href="https://fb.com/jordiajahah"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/sempetjadibucin"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/johjordi"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/channel/UCTSBcR-u19X53MJm8AC21Ig"><i class="fab fa-youtube"></i></a>
+  </div>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
